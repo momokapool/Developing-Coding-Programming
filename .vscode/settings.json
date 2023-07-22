@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp"
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./program year 1 ae",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "program year 1 ae"
+    ]
+}

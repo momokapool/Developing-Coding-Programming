@@ -101,14 +101,27 @@ class DemoTransport(Menu):
         a = int(input("Max speed: "))
         b = input("color: ")
         c = input("model: ")
-        d = bool(input("electric?: "))
+        d = input('electric? :')
         e = int(input("power: "))
-        try:
+        if d == "Yes" or d == "yes":
+            print("NO NO")
+        else:
             new_car = Car(a, b, c, d, e)
             self.transport.append(new_car)
-        except ValueError as e:
-            print(e, 'ko dc ae')
-    
+
+
+    def add_electric_car(self):
+        a = int(input("Max speed: "))
+        b = input("color: ")
+        c = input("model: ")
+        d = input('electric? :')
+        e = int(input("power: "))
+        if d == "No" or d == "No":
+            print("NO NO")
+        else:
+            new_car = Car(a, b, c, d, e)
+            self.transport.append(new_car)
+
 
     def add_truck(self):
         a = int(input("Max speed: "))
@@ -139,13 +152,18 @@ class DemoTransport(Menu):
         if choice == 1:
             self.add_car()
         if choice == 2:
-            self.add_truck()
+            self.add_electric_car()
         if choice == 3:
-            self.add_motorbike()
+            self.add_truck()
         if choice == 4:
+            self.add_motorbike()
+        if choice == 5:
             self.show_all()
 
     def run(self):
         return super().run()
-    
 
+
+
+system = DemoTransport()
+system.run()

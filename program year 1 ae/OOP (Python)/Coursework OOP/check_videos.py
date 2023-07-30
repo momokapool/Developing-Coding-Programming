@@ -11,7 +11,7 @@ def set_text(text_area, content):
 
 class CheckVideos():
     def __init__(self, window):
-        window.geometry("800x400")
+        window.geometry("1000x600")
         window.title("Check Videos")
         window.configure(background= "#333333")
 
@@ -52,6 +52,7 @@ class CheckVideos():
         else:
             set_text(self.video_txt, f"Video {key} not found")
         self.status_lbl.configure(text="Check Video button was clicked!")
+
 
     def list_videos_clicked(self):
         video_list = lib.list_all()

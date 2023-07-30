@@ -14,8 +14,9 @@ class LibraryItem:
         for i in range(self.rating):
             stars += "*"
         return stars
+    
 
-
+playlist = []
 
 library = {}
 library["01"] = LibraryItem("Tom and Jerry", "Fred Quimby", 4)
@@ -79,3 +80,6 @@ def increment_play_count(key):
         item.play_count += 1
     except KeyError:
         return
+
+
+

@@ -17,10 +17,17 @@ def Check_video_clicked():
 
 
 #Create video list
+<<<<<<< Updated upstream
 def Create_video_list_clicked():
     # Toplevel object which will be treated as a new window
     Create_video_list_window = Toplevel(window)
     CreateVideoList(Create_video_list_window)
+=======
+def create_video_list():
+    create_video_list_window = Toplevel(window)
+    CreateVideoList(create_video_list_window)
+
+>>>>>>> Stashed changes
     
 
 
@@ -34,7 +41,11 @@ Check_video_button = Button(window, text= 'Check videos', width=20, height=5, ba
 Check_video_button.place(x=50, y=50)
 
 #create video list button
+<<<<<<< Updated upstream
 Create_video_list_button = Button(window, text= 'Create video list', width=20, height=5, background="#458B74", command=Create_video_list_clicked)
+=======
+Create_video_list_button = Button(window, text= 'Create video list', width=20, height=5, background="#458B74", command=create_video_list)
+>>>>>>> Stashed changes
 Create_video_list_button.place(x=360, y=50)
 
 #update video button

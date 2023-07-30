@@ -14,9 +14,8 @@ class CreateVideoList():
         window.title("Check Videos")
         window.configure(background= "#333333")
 
-<<<<<<< Updated upstream
-        self.playlist = []
 
+        self.playlist = []
 
 
         enter_playlist_name_lbl = Label(window, text="Enter Playlist's name", background="#458B74")
@@ -45,35 +44,9 @@ class CreateVideoList():
 
         self.playlist_txt = tkst.ScrolledText(window, width=48, height=12, wrap="none")
         self.playlist_txt.grid(row=1, column=2, columnspan=3, sticky="W", padx=9, pady=9)
-=======
-        enter_lbl = Label(window, text="Enter new list name: ",  background="#458B74")
-        enter_lbl.grid(row=0, column=1, padx=24, pady=24)
-
-        self.input_txt = Entry(window, width=25)
-        self.input_txt.grid(row=0, column=2, padx=24, pady=24)
-
-        self.status_lbl = Label(window, text="", font=("Helvetica", 10),  background="#458B74")
-        self.status_lbl.grid(row=2, column=0, columnspan=4, sticky="W", padx=10, pady=10)
-
-        cf_button = Button(window, text="Create", command=self.list_videos_clicked(),  background="#458B74")#ti them command
-        cf_button.grid(row=0, column= 3, padx=24, pady=24)
-
-
-
-
-
-
-        
-
-        
-
-
->>>>>>> Stashed changes
-
 
 
     def list_videos_clicked(self):
-<<<<<<< Updated upstream
         video_list = lib.list_all()
         set_text(self.list_txt, video_list)
 
@@ -93,22 +66,3 @@ class CreateVideoList():
             set_text(self.playlist_txt, self.playlist)
         else:
             set_text(self.playlist_txt, f"Video {number_to_add} not found")
-
-        
-
-        
-
-    
-        
-
-    
-
-        
-
-    
-
-    
-=======
-        self.status_lbl.configure(text="Created new playlist")
-
->>>>>>> Stashed changes

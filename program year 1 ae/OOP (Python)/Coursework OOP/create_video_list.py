@@ -14,9 +14,7 @@ class CreateVideoList():
         window.title("Check Videos")
         window.configure(background= "#333333")
 
-
         self.playlist = []
-
 
         enter_playlist_name_lbl = Label(window, text="Enter Playlist's name", background="#458B74")
         enter_playlist_name_lbl.grid(row=0, column=0, padx=24, pady=24)

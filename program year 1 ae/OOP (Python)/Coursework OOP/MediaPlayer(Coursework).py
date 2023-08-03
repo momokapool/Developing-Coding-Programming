@@ -1,6 +1,7 @@
 from tkinter import *
 from check_videos import CheckVideos
 from create_video_list import CreateVideoList
+from update_videos import UpdateVideo
 
 
 window = Tk()
@@ -22,8 +23,10 @@ def Create_video_list_clicked():
     Create_video_list_window = Toplevel(window)
     CreateVideoList(Create_video_list_window)
 
-    
-
+def Update_video_clicked():
+    pass
+    update_video_window = Toplevel(window)
+    UpdateVideo(update_video_window)
 
 
 
@@ -40,7 +43,7 @@ Create_video_list_button = Button(window, text= 'Create video list', width=20, h
 Create_video_list_button.place(x=360, y=50)
 
 #update video button
-Update_video_button = Button(window, text= 'Update videos', width=20, height=5, background="#458B74")
+Update_video_button = Button(window, text= 'Update videos', width=20, height=5, background="#458B74", command=Update_video_clicked)
 Update_video_button.place(x=670, y=50)
 
 

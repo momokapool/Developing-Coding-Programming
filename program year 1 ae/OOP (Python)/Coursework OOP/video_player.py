@@ -1,6 +1,5 @@
 import tkinter as tk
 
-import font_manager as fonts
 from check_videos import CheckVideos
 
 
@@ -13,7 +12,7 @@ window = tk.Tk()
 window.geometry("520x150")
 window.title("Video Player")
 
-fonts.configure()
+
 
 header_lbl = tk.Label(window, text="Select an option by clicking one of the buttons below")
 header_lbl.grid(row=0, column=0, columnspan=3, padx=10, pady=10)

@@ -4,7 +4,7 @@ class LibraryItem:
         self.name = name
         self.director = director
         self.rating = rating
-        self.play_count = 0
+        #self.play_count = 0
 
     def info(self):
         return f"{self.name} - {self.director} {self.stars()}"
@@ -15,8 +15,6 @@ class LibraryItem:
             stars += "*"
         return stars
     
-
-playlist = []
 
 library = {}
 library["01"] = LibraryItem("Tom and Jerry", "Fred Quimby", 4)

@@ -24,8 +24,8 @@ class UpdateVideo:
         enter_new_lbl = Label(window, text="Enter Playlist's new rate", background="#458B74")
         enter_new_lbl.grid(row=1, column=0, padx=24, pady=24)
 
-        self.new_txt = Entry(window, width=30)
-        self.new_txt.grid(row=1, column=1, padx=24, pady=24)
+        self.new_rate_txt = Entry(window, width=30)
+        self.new_rate_txt.grid(row=1, column=1, padx=24, pady=24)
 
         update_new_video_btn = Button(window, text="Update video", background="#458B74", command=self.update)
         update_new_video_btn.grid(row=2, column=0, padx=24, pady=24)
@@ -42,7 +42,13 @@ class UpdateVideo:
         set_text(self.list_txt, video_list)
 
     def update(self):
-        pass
+        number = self.number_txt.get()
+        rate = self.new_rate_txt.get()
+        name = lib.get_name(number)
+        if name is not None:
+            lib.update_rating(number, rate)
+
+
 
 
     

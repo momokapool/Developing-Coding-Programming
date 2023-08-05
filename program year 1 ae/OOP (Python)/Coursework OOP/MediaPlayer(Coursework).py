@@ -6,7 +6,7 @@ from update_videos import UpdateVideo
 
 window = Tk()
 window.geometry('1000x1000')
-window.title('Media Player')
+window.title('Media Player')          
 window.configure(background= "#333333")
 
 

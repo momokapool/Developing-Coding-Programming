@@ -4,7 +4,7 @@ import tkinter.scrolledtext as tkst
 import video_library as lib
 
 
-def set_text(text_area, content):
+def set_text(text_area, content): #create a text area to display the content
     text_area.delete("1.0", END)
     text_area.insert(1.0, content)
 

@@ -78,6 +78,14 @@ def increment_play_count(key):
         item.play_count += 1
     except KeyError:
         return
+    
+    
+def update_rating(key, rating):
+    try:
+        item = library[key]
+        item.rating = rating
+    except KeyError:
+        return
 
 
 

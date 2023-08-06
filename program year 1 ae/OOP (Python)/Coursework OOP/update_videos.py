@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter.messagebox as messagebox
 import tkinter.scrolledtext as tkst
 
 import video_library as lib
@@ -27,26 +28,27 @@ class UpdateVideo:
         self.new_rate_txt = Entry(window, width=30)
         self.new_rate_txt.grid(row=1, column=1, padx=24, pady=24)
 
-        update_new_video_btn = Button(window, text="Update video", background="#458B74", command=self.update)
+        update_new_video_btn = Button(window, text="Update video", background="#458B74", command=self.update_video)
         update_new_video_btn.grid(row=2, column=0, padx=24, pady=24)
 
-        list_videos_btn = Button(window, text="List All Videos", command=self.list_videos_clicked,  background="#458B74")
-        list_videos_btn.grid(row=0, column=2, padx=10, pady=10)
 
-        self.list_txt = tkst.ScrolledText(window, width=48, height=12, wrap="none")
-        self.list_txt.grid(row=1, column=2, columnspan=3, sticky="W", padx=10, pady=10)
+    def update_video(self):
+        video_number = self.number_txt.get()
+        rating = self.new_rate_txt.get()
+        video_name = lib.get_name(video_number)
+        if not video_number.isdigit():
+            messagebox.showerror("Invalid video number")
+            return
+        if video_name is None:
+            messagebox.showerror("Not found!")
+            return
+        if not rating.isdigit():
+            messagebox.showerror("Invalid rating!")
+            return
+        lib.update_rating(video_number, rating)
 
 
-    def list_videos_clicked(self):
-        video_list = lib.list_all()
-        set_text(self.list_txt, video_list)
 
-    def update(self):
-        number = self.number_txt.get()
-        rate = self.new_rate_txt.get()
-        name = lib.get_name(number)
-        if name is not None:
-            lib.update_rating(number, rate)
 
 
 

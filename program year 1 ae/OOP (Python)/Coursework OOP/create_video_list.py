@@ -1,5 +1,6 @@
 from tkinter import *
 import tkinter.scrolledtext as tkst
+import tkinter.messagebox as messagebox
 
 import video_library as lib
 
@@ -43,6 +44,9 @@ class CreateVideoList():
         self.playlist_txt = tkst.ScrolledText(window, width=48, height=12, wrap="none")
         self.playlist_txt.grid(row=1, column=2, columnspan=3, sticky="W", padx=9, pady=9)
 
+        play_button = Button(window, text="Play", background="#458B74")
+        play_button.grid(row=2, column=3, padx=9, pady=9)
+
 
     def list_videos_clicked(self):
         video_list = lib.list_all()
@@ -59,8 +63,19 @@ class CreateVideoList():
     def add_video_to_playlist(self):
         number_to_add = self.input_vide0_add_txt.get()
         video_to_add = lib.get_name(number_to_add)
+        play_count = lib.get_play_count(number_to_add)
         if video_to_add is not None:
             self.playlist.append(video_to_add)
             set_text(self.playlist_txt, self.playlist)
+            messagebox.showinfo("Play count", print(play_count))
         else:
             set_text(self.playlist_txt, f"Video {number_to_add} not found")
+
+    def play_playlist(self):
+        for i in self.playlist.keys():
+            lib.increment_play_count(i)
+        messagebox.showinfo("Notification", "Playlist is playing")
+
+
+
+

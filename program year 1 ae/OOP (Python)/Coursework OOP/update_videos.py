@@ -30,6 +30,12 @@ class UpdateVideo:
 
         update_new_video_btn = Button(window, text="Update video", background="#458B74", command=self.update_video)
         update_new_video_btn.grid(row=2, column=0, padx=24, pady=24)
+        
+        list_videos_btn = Button(window, text="List All Videos", command=self.list_videos_clicked,  background="#458B74")
+        list_videos_btn.grid(row=2, column=1, padx=10, pady=10)
+
+        self.list_txt = tkst.ScrolledText(window, width=48, height=12, wrap="none")
+        self.list_txt.grid(row=2, column=2, columnspan=3, sticky="W", padx=10, pady=10)
 
 
     def update_video(self):
@@ -45,8 +51,15 @@ class UpdateVideo:
         if not rating.isdigit():
             messagebox.showerror("Invalid rating!")
             return
+        
+        rating = int(rating)
         lib.update_rating(video_number, rating)
 
+
+    def list_videos_clicked(self):
+        video_list = lib.list_all()
+        set_text(self.list_txt, video_list)
+        self.status_lbl.configure(text="List Videos button was clicked!")
 
 
 

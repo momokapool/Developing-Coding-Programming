@@ -35,8 +35,8 @@ class CreateVideoList():
         enter_video_to_add_lbl = Label(window, text="Enter Video Number to add to new playlist",  background="#458B74")
         enter_video_to_add_lbl.grid(row=2, column=0, padx=24, pady=24)
 
-        self.input_vide0_add_txt = Entry(window, width=7)
-        self.input_vide0_add_txt.grid(row=2, column=1, padx=9, pady=9)
+        self.input_video_add_txt = Entry(window, width=7)
+        self.input_video_add_txt.grid(row=2, column=1, padx=9, pady=9)
 
         add_button = Button(window, text="Add", background="#458B74", command=self.add_video_to_playlist)
         add_button.grid(row=2, column=2, padx=9, pady=9)
@@ -61,15 +61,16 @@ class CreateVideoList():
 
 
     def add_video_to_playlist(self):
-        number_to_add = self.input_vide0_add_txt.get()
+        number_to_add = self.input_video_add_txt.get()
         video_to_add = lib.get_name(number_to_add)
         play_count = lib.get_play_count(number_to_add)
         if video_to_add is not None:
             self.playlist.append(video_to_add)
             set_text(self.playlist_txt, self.playlist)
-            messagebox.showinfo("Play count", print(play_count))
+            play_count += 1
         else:
             set_text(self.playlist_txt, f"Video {number_to_add} not found")
+
 
     def play_playlist(self):
         for i in self.playlist.keys():

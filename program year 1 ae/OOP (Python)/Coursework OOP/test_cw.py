@@ -40,13 +40,14 @@ class UDVTestCase():
         assert ValueError()
         
 
+
 crvtest = CRVTestCase()
 udvtest = UDVTestCase()
 
 
+
 def test_add_video_to_playlist1():
     crvtest.test_add_video_to_playlist01
-    
 
 def test_add_video_to_playlist2():
     crvtest.test_add_video_to_playlist02

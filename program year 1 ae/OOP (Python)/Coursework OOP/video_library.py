@@ -18,11 +18,11 @@ class LibraryItem:
 
 
 library = {}
-library["01"] = LibraryItem("Tom and Jerry", "Fred Quimby", 4)
-library["02"] = LibraryItem("Breakfast at Tiffany's", "Blake Edwards", 5)
-library["03"] = LibraryItem("Casablanca", "Michael Curtiz", 2)
-library["04"] = LibraryItem("The Sound of Music", "Robert Wise", 1)
-library["05"] = LibraryItem("Gone with the Wind", "Victor Fleming", 3)
+library["1"] = LibraryItem("Tom and Jerry", "Fred Quimby", 4)
+library["2"] = LibraryItem("Breakfast at Tiffany's", "Blake Edwards", 5)
+library["3"] = LibraryItem("Casablanca", "Michael Curtiz", 2)
+library["4"] = LibraryItem("The Sound of Music", "Robert Wise", 1)
+library["5"] = LibraryItem("Gone with the Wind", "Victor Fleming", 3)
 
 
 

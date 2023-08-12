@@ -2,7 +2,7 @@ from create_video_list import CreateVideoList
 from update_videos import UpdateVideo
 from video_library import LibraryItem
 
-
+#ko test GUI
 class CRVTestCase():
     def __init__(self):
         self.item1 = LibraryItem("Test", "One", 1)
@@ -43,6 +43,7 @@ class UDVTestCase():
 
 crvtest = CRVTestCase()
 udvtest = UDVTestCase()
+
 
 
 

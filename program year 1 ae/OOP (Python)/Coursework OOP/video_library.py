@@ -86,7 +86,7 @@ def update_rating(key, rating):
     try:
         item = library[key]
         item.rating = rating
-    except KeyError:
+    except rating < 0 or rating > 10:
         return
 
 

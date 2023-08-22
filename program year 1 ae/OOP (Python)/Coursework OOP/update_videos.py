@@ -42,7 +42,7 @@ class UpdateVideo:
         video_number = self.number_txt.get()
         rating = self.new_rate_txt.get()
         video_name = lib.get_name(video_number)
-        if not video_number.isdigit():
+        if not video_number.isdigit():  #dieu kien de update
             messagebox.showerror("Invalid video number")
             return
         if video_name is None:
@@ -50,6 +50,10 @@ class UpdateVideo:
             return
         if not rating.isdigit():
             messagebox.showerror("Invalid rating!")
+            return
+        rating = int(rating)
+        if rating < 0 or rating > 10:
+            messagebox.showerror("Rating must be between [0-10]")
             return
         
         rating = int(rating)

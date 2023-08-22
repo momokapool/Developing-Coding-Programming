@@ -24,7 +24,6 @@ def Create_video_list_clicked():
     CreateVideoList(Create_video_list_window)
 
 def Update_video_clicked():
-    pass
     update_video_window = Toplevel(window)
     UpdateVideo(update_video_window)
 

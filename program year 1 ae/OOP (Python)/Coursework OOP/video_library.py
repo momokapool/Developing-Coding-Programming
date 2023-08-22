@@ -20,7 +20,7 @@ class LibraryItem:
 library = {}
 library["1"] = LibraryItem("Tom and Jerry", "Fred Quimby", 4)
 library["2"] = LibraryItem("Breakfast at Tiffany's", "Blake Edwards", 5)
-library["3"] = LibraryItem("Casablanca", "Michael Curtiz", 2)
+library["3"] = LibraryItem("Casablanca 1", "Michael Curtiz", 2)
 library["4"] = LibraryItem("The Sound of Music", "Robert Wise", 1)
 library["5"] = LibraryItem("Gone with the Wind", "Victor Fleming", 3)
 
@@ -86,7 +86,7 @@ def update_rating(key, rating):
     try:
         item = library[key]
         item.rating = rating
-    except rating < 0 or rating > 10:
+    except KeyError:
         return
 
 

@@ -44,7 +44,7 @@ class CreateVideoList():
         self.playlist_txt = tkst.ScrolledText(window, width=48, height=12, wrap="none")
         self.playlist_txt.grid(row=1, column=2, columnspan=3, sticky="W", padx=9, pady=9)
 
-        play_button = Button(window, text="Play", background="#458B74")
+        play_button = Button(window, text="Play", background="#458B74", command=self.play_playlist)
         play_button.grid(row=2, column=3, padx=9, pady=9)
 
 
@@ -73,10 +73,8 @@ class CreateVideoList():
 
 
     def play_playlist(self):
-        for i in self.playlist.keys():
-            lib.increment_play_count(i)
-        messagebox.showinfo("Notification", "Playlist is playing")
-
+        i = len(self.playlist)
+        messagebox.showinfo("info", f"{i} videos are playing")
 
 
 

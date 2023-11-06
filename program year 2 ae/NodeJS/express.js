@@ -14,14 +14,8 @@ const router = require('./src/route/web');
 
 
 //ket noi database mysql
-const mysql = require('mysql2');
-const connection = mysql.createConnection({
-    host: 'localhost',
-    port: 3307,
-    user: 'root',
-    password: '123456',
-    database: 'hoidanit'
-})
+const connection = require('./src/config/database');
+
 
 //conncetion query
 connection.query(

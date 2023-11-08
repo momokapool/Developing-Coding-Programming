@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const {getHomepage} = require('../controller/homeControl');
+const {getHomepage, CreateUsser} = require('../controller/homeControl');
+
+
 
 
 router.get('/xyz', (req, res) => {
@@ -8,10 +10,14 @@ router.get('/xyz', (req, res) => {
 })
 
 router.get('/abc', (req, res) => {
-    res.render('start.html')
+    res.render('start.ejs')
 })
 
 router.get('/', getHomepage);
+
+router.post('/create-user', CreateUsser);
+
+
 
 
 module.exports = router;

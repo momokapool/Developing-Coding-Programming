@@ -26,12 +26,17 @@ connection.query(
     }
 )
 
+//config data dc  nhap vao tu form html
+app.use(express.json())
+app.use(express.urlencoded ({ extended: true}))
+
 
 //config template engine
 config(app);
 
 //static file config
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'))
 
 //route hay la dieu huong trang
 app.use(router);

@@ -1,7 +1,13 @@
 const getHomepage = (req, res) =>{
-    res.send('toi bulul me thang ban');
+    return res.render('start.ejs')
+}
+
+const CreateUsser = (req, res) =>{
+    console.log(">>> req.body", req.body);
+    res.send("tin chuan chua a");
 }
 
 module.exports = {
-    getHomepage
+    getHomepage, CreateUsser
 }
+

@@ -18,13 +18,13 @@ const connection = require('./src/config/database');
 
 
 //conncetion query
-connection.query(
+/*connection.query(
     'SELECT * FROM Users',
     function (err, result, fields) {
         console.log(result);
         console.log(fields);
     }
-)
+)*/
 
 //config data dc  nhap vao tu form html
 app.use(express.json())

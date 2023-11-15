@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {getHomepage, CreateUsser} = require('../controller/homeControl');
+const {getHomepage, postCreateUser} = require('../controller/homeControl.js');
 
 
 
@@ -15,7 +15,7 @@ router.get('/abc', (req, res) => {
 
 router.get('/', getHomepage);
 
-router.post('/create-user', CreateUsser);
+router.post('/create-user', postCreateUser);
 
 
 

@@ -1,9 +1,24 @@
 const connection = require('../config/database.js')
 
 const getHomepage = (req, res) => {
+    connection.connect(function (err) {
+        if (err) throw err
+        console.log("Connected!");
+        connection.query(`SELECT * FROM Users`, function (err, result) {
+            if (err) throw err;
+            console.log(result);
+        });
+    });
     return res.render('start.ejs')
 }
 
+
+//render ra file frontend input, phai viet dung thu tu req truoc res sau
+const getCreateUser = (req, res) => {
+    return res.render('create_user.ejs')
+}
+
+//create new user
 const postCreateUser = (req, res) => {
     let name = req.body.name;
     let city = req.body.city;
@@ -13,7 +28,6 @@ const postCreateUser = (req, res) => {
     //res.send("tin chuan chua a");
 
     //var query = `INSERT INTO Users (email, name, city) VALUES (?, ?, ?)`[email, name, city],;
-
 
     connection.connect(function (err) {
         if (err) throw err
@@ -29,6 +43,6 @@ const postCreateUser = (req, res) => {
 
 
 module.exports = {
-    getHomepage, postCreateUser
+    getHomepage, getCreateUser, postCreateUser
 }
 

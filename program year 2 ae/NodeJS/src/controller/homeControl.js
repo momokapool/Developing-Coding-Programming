@@ -1,22 +1,49 @@
 const connection = require('../config/database.js')
 
+
+
 const getHomepage = (req, res) => {
     connection.connect(function (err) {
         if (err) throw err
         console.log("Connected!");
-        connection.query(`SELECT * FROM Users`, function (err, result) {
+        connection.query(`SELECT * FROM Users`, function (err, results) {
             if (err) throw err;
-            console.log(result);
+            console.log(results);
+            return res.render('start.ejs', {listUsers: results}); 
         });
     });
-    return res.render('start.ejs')
+    
 }
+
+/*async function getHomepage(data) {
+    var sql = "SELECT * FROM Users"
+    const results = await connection.promise().query(sql)
+    return results[0]
+}*/
 
 
 //render ra file frontend input, phai viet dung thu tu req truoc res sau
 const getCreateUser = (req, res) => {
     return res.render('create_user.ejs')
 }
+
+//render ra form update
+const getUpdateUser = (req, res) => {
+    const userID = req.params.id;
+    console.log(">>>", req.params, userID)
+
+    connection.connect(function (err) {
+        connection.query(`SELECT * FROM Users WHERE id = ?`, [userID], function (err, results) {
+            if (err) throw err;
+            console.log(results);
+
+            let user = results && results.length > 0 ? results[0] : {};
+            return res.render('edit.ejs', {user: user})
+        });
+    });
+}
+
+
 
 //create new user
 const postCreateUser = (req, res) => {
@@ -43,6 +70,6 @@ const postCreateUser = (req, res) => {
 
 
 module.exports = {
-    getHomepage, getCreateUser, postCreateUser
+    getHomepage, getCreateUser, postCreateUser, getUpdateUser
 }
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
     <title>ExpressJS Web</title>
 </head>
 <style>
@@ -27,8 +27,9 @@ tr:hover {
 
 <body>
     ME MAY BEO
+    
     <div>
-        <img src="/program year 2 ae/NodeJS/src/public/sampleimage.jpg ">
+        <img src="../public/sampleimage.jpg">
     </div>
     <div class="topnav">
         <a href="/">Home</a>
@@ -36,6 +37,10 @@ tr:hover {
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
     </div>
+    <div>
+        <%= JSON.stringify(listUsers) %>
+    </div>
+    
     <table>
         <tr>
             <th>Email</th>
@@ -43,43 +48,18 @@ tr:hover {
             <th>City</th>
             <th>Action</th>
         </tr>
-        <tr>
-            <td>Peter</td>
-            <td>Griffin</td>
-            <td>$100</td>
-            <th>
-                <button>Edit</button>
-                <button>Delete</button>
-            </th>
-        </tr>
-        <tr>
-            <td>Lois</td>
-            <td>Griffin</td>
-            <td>$150</td>
-            <th>
-                <button>Edit</button>
-                <button>Delete</button>
-            </th>
-        </tr>
-        <tr>
-            <td>Joe</td>
-            <td>Swanson</td>
-            <td>$300</td>
-            <th>
-                <button>Edit</button>
-                <button>Delete</button>
-            </th>
-        </tr>
-        <tr>
-            <td>Cleveland</td>
-            <td>Brown</td>
-            <td>$250</td>
-            <th>
-                <button>Edit</button>
-                <button>Delete</button>
-            </th>
-        </tr>
-    </table>
+        <% for (let i = 0; i < listUsers.length; i++) { %>
+            <tr>
+                <td><%= listUsers[i].email %></td>
+                <td><%= listUsers[i].name %></td>
+                <td><%= listUsers[i].city %></td>
+                <th>
+                    <a href="/update/<%= listUsers[i].id %>">Edit</a>
+                    <button>Delete</button>
+                </th>
+            </tr>
+        <% } %>
+        
 
 </body>
 

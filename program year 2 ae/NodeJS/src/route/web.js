@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {getHomepage, getCreateUser, postCreateUser, getUpdateUser} = require('../controller/homeControl.js');
+const {getHomepage, getCreateUser, postCreateUser, getUpdateUser, UpdateUser, DeleteUser} = require('../controller/homeControl.js');
 
 
 
@@ -15,6 +15,8 @@ router.get('/create', getCreateUser);
 router.get('/update/:id', getUpdateUser);
 
 router.post('/create-user', postCreateUser);
+router.post('/update-user', UpdateUser);
+router.post('/delete-user/:id', DeleteUser);
 
 
 

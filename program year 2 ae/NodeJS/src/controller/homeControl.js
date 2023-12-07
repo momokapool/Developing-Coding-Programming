@@ -61,8 +61,46 @@ const postCreateUser = (req, res) => {
         console.log("Connected!");
         connection.query(`INSERT INTO Users (email, name, city) VALUES (?, ?, ?)`, [email, name, city], function (err, result) {
             if (err) throw err;
-            console.log("1 record inserted");
-            res.send('ok');
+            res.redirect('/');
+        });
+    });
+}
+
+
+//update user
+const UpdateUser = (req, res) => {
+    let name = req.body.name;
+    let city = req.body.city;
+    let email = req.body.email;
+    let userId = req.body.userId;
+
+    console.log(">>> req.body", name, city, email, userId);
+    //res.send("tin chuan chua a");
+
+    //var query = `INSERT INTO Users (email, name, city) VALUES (?, ?, ?)`[email, name, city],;
+
+    connection.connect(function (err) {
+        if (err) throw err
+        console.log("Connected!");
+        connection.query(`UPDATE Users SET email = ?, city = ?, name = ? WHERE id = ?`, [email, name, city, userId], function (err, result) {
+            if (err) throw err;
+            //console.log("1 record inserted");
+            res.redirect('/');
+        });
+    });
+}
+
+
+//delete user
+const DeleteUser = (req, res) => {
+    let userId = req.body.userId;
+    connection.connect(function (err) {
+        if (err) throw err
+        console.log("Connected!");
+        connection.query(`DELETE FROM Users WHERE id = ?`, [userId], function (err, result) {
+            if (err) throw err;
+            //console.log("1 record inserted");
+            res.redirect('/');
         });
     });
 }
@@ -70,6 +108,6 @@ const postCreateUser = (req, res) => {
 
 
 module.exports = {
-    getHomepage, getCreateUser, postCreateUser, getUpdateUser
+    getHomepage, getCreateUser, postCreateUser, getUpdateUser, UpdateUser, DeleteUser
 }
 

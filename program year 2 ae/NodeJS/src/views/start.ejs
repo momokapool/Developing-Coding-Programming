@@ -55,7 +55,11 @@ tr:hover {
                 <td><%= listUsers[i].city %></td>
                 <th>
                     <a href="/update/<%= listUsers[i].id %>">Edit</a>
-                    <button>Delete</button>
+
+                    <form action="/delete-user/<%= listUsers[i].id %>" method="post">
+                        <input type="hidden" value="<%= listUsers[i].id %>" name="userId"><br>
+                        <button type="submit">Delete</button>
+                    </form>
                 </th>
             </tr>
         <% } %>

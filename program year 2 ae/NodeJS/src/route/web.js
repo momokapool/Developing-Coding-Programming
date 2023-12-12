@@ -11,7 +11,7 @@ router.get('/xyz', (req, res) => {
 
 router.get('/', getHomepage);
 
-router.get('/create', getCreateUser);
+router.get('/create', getCreateUser);  
 router.get('/update/:id', getUpdateUser);
 
 router.post('/create-user', postCreateUser);

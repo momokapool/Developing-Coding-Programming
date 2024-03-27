@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\bin\Debug\Week 3 lab.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\bin\Debug\Week 3 lab.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\bin\Debug\Week 3 lab.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\obj\Debug\Week 3 lab.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\obj\Debug\Week 3 lab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\obj\Debug\Week 3 lab.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 3 lab\Week 3 lab\obj\Debug\Week 3 lab.pdb

@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\bin\Debug\oop c#.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\bin\Debug\oop c#.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\bin\Debug\oop c#.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\obj\Debug\oop c#.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\obj\Debug\oop c#.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\obj\Debug\oop c#.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\oop c#\oop c#\obj\Debug\oop c#.pdb

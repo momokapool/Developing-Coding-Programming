@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\bin\Debug\week 5 lab.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\bin\Debug\week 5 lab.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\bin\Debug\week 5 lab.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\obj\Debug\week 5 lab.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\obj\Debug\week 5 lab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\obj\Debug\week 5 lab.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\week 5 lab\week 5 lab\obj\Debug\week 5 lab.pdb

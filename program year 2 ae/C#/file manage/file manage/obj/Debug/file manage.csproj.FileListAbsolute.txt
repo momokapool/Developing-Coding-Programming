@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\bin\Debug\file manage.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\bin\Debug\file manage.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\bin\Debug\file manage.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file manage.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file_manage.Form1.resources
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file_manage.Properties.Resources.resources
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file manage.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file manage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file manage.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\file manage\file manage\obj\Debug\file manage.pdb

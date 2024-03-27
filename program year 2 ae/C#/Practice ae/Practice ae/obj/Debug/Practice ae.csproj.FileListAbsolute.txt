@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\obj\Debug\Practice ae.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\obj\Debug\Practice ae.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\bin\Debug\Practice ae.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\bin\Debug\Practice ae.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\bin\Debug\Practice ae.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\obj\Debug\Practice ae.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Practice ae\Practice ae\obj\Debug\Practice ae.pdb

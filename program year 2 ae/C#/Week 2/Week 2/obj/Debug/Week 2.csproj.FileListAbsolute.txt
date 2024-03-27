@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\obj\Debug\Week 2.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\obj\Debug\Week 2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\bin\Debug\Week 2.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\bin\Debug\Week 2.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\bin\Debug\Week 2.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\obj\Debug\Week 2.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\Week 2\Week 2\obj\Debug\Week 2.pdb

@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\bin\Debug\Database1.mdf
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\bin\Debug\Database1_log.ldf
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\bin\Debug\database practice lam lai.exe.config
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\bin\Debug\database practice lam lai.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\bin\Debug\database practice lam lai.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database practice lam lai.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database_practice_lam_lai.Form1.resources
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database_practice_lam_lai.Properties.Resources.resources
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database practice lam lai.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database practice lam lai.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database practice lam lai.exe
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database practice lam lai.pdb
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database_practice_lam_lai.Form2.resources
+C:\Users\Admin\Documents\Developing-Coding-Programming UoG\program year 2 ae\C#\database practice lam lai\database practice lam lai\obj\Debug\database_practice_lam_lai.Form3.resources

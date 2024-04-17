@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework Student Management.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework_Student_Management.Form1.resources
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework_Student_Management.Properties.Resources.resources
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework Student Management.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework Student Management.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\bin\Debug\Coursework Student Management.exe.config
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\bin\Debug\Coursework Student Management.exe
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\bin\Debug\Coursework Student Management.pdb
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework Student Management.exe
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework Student Management.pdb
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework_Student_Management.LoginForm.resources
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework_Student_Management.MainMenu.resources
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework_Student_Management.ModifyStudentForm.resources
+C:\Users\Admin\Documents\baitap\Application development\Coursework Student Management\Coursework Student Management\obj\Debug\Coursework_Student_Management.ModifyTeacherForm.resources

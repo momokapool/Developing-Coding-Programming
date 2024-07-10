@@ -1,12 +1,6 @@
-package practive;
+package TimeComplexity;
 
-public class TimeComplexity {
-    /*
-	Specify the complexity of the piece of codes below
-
-*/
-//1
-
+public class timeComplexity {
     public static void main(String[] args) {
         int n = 2;
 
@@ -18,7 +12,7 @@ public class TimeComplexity {
         }
 
 
-        int mat[][];
+        int mat[][] = {};
 
 
         //6.1
@@ -31,13 +25,13 @@ public class TimeComplexity {
         //n*n+n = n^2 + n = n^2
 
 
-
+        int A[][] = {};
         //6.2
         for(int i = 0; i< n ; i ++){ //n step
             for(int j = 0; j < n; j ++){ //n step in each step in n => n*n
                 A[i][j] = 0 ;
             }
-            for(int k = 0; ; k < n; k++){ //n step in each step in n => n*n
+            for(int k = 0;  k < n; k++){ //n step in each step in n => n*n
                 A[k][k] = 1;
             }
         }
@@ -46,7 +40,7 @@ public class TimeComplexity {
 
 
 
-        //6.3
+
         for(int i = 0; i < n;  i++){ //n step
             for(int j = 0; j < n; j++){ //n step in each step in n => n*n
                 A[i][j] = 0;
@@ -56,14 +50,5 @@ public class TimeComplexity {
             }
         }
 
-        //n*n*n = n^3
-
-
-
-
-
-
-
     }
-
 }

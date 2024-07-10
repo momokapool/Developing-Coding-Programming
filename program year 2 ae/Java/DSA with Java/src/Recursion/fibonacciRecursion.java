@@ -1,7 +1,7 @@
-package practive;
+package Recursion;
 
-public class fibbonaciRecursion {
-    public static void main(String[] args){
+public class fibonacciRecursion {
+    public static void main(String[] args) {
 
     }
 
@@ -28,4 +28,3 @@ public class fibbonaciRecursion {
         return mem[n];
     }
 }
-

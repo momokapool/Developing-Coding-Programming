@@ -1,11 +1,9 @@
-package practive;
+package Recursion;
+
 import java.util.Arrays;
 
 public class recursion {
     public static void main(String[] args) {
-        //1+2+3+4+5
-
-
         int a = tinhTongCacSoChantu_a_den_b(1, 11);
         System.out.println(a);
 
@@ -14,9 +12,7 @@ public class recursion {
         reverseUsingRecusrion(arr, 0, arr.length-1);
 
         System.out.println(Arrays.toString(arr));
-
     }
-
 
     public static int tinhTongTu1DenNcach1(int n){
         //ap dung cont thuc gauss

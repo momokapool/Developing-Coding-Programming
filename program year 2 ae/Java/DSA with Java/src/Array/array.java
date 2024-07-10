@@ -1,8 +1,10 @@
-import java.util.Scanner;
+package Array;
+
 import java.util.Arrays;
 
-public class Array {
-    public static void main(String[] args){
+public class array {
+    public static void main(String[] args) {
+
         int[] arr = {1, 2, 3, 4, 5};
 
         System.out.println(Arrays.toString(arr));
@@ -22,10 +24,8 @@ public class Array {
 //
 //        System.out.println(Arrays.toString(rev2));
 
-    search(6, arr);
-
+          search(6, arr);
     }
-
 
     public static int[] reverseArrayC1(int[] arr){
 

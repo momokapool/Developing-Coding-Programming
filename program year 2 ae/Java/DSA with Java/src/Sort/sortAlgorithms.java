@@ -47,6 +47,7 @@ public class sortAlgorithms {
                     swapped = true;
                 }
             }
+            if (!swapped) break;
         }
         return arr;
     }

@@ -3,7 +3,7 @@ const app = express()
 
 //1) declare & config "mongoose"
 const mongoose = require('mongoose')
-const db = "mongodb://127.0.0.1:27017/vocab-builder"  //vocab-builder: db name
+const db = "mongodb+srv://lgb:lgb191004@cluster0.ked3o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  //vocab-builder: db name
 
 
 mongoose.connect(db)
@@ -25,5 +25,5 @@ const vocabRouter = require('./api/routes/vocabRouter')
 vocabRouter(app)
 
 //5) run server by listening port
-const port = 3000
+const port = process.env.PORT || 3000
 app.listen(port)
